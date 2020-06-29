@@ -1,0 +1,164 @@
+a:hover {
+  background-color: #F8C471;
+}
+
+Body {
+	Margin:0;
+	Padding:0;
+	Font-family: arial;
+	Font-size: 16px;
+	Line-height:1.6;
+}
+
+.container {
+	Max-width: 1200px;
+	Margin: 50px auto;
+}
+
+.tab_trigger {}
+
+.tab_trigger ul {
+	Margin:0;
+	Padding:0;
+	List-style: none;
+	Display: flex;
+}
+
+.tab_trigger ul li {}
+
+.tab_trigger ul li label {
+	Position: relative;
+	Display: block;
+	Padding: 8px 15px;
+	Cursor: pointer;
+	Min-width: 100px;
+	Background: #e6e6e6;
+	Text-align: center;
+	Font-weight: 700;
+	Border-radius: 8px 8px 0 0;
+}
+
+.tab_trigger ul li:nth-child(1) label {
+	Background: #f0f0f0;
+}
+
+.tab_trigger ul li:nth-child(2) label {
+	Background: #e6e6e6;
+}
+
+.tab_trigger ul li:nth-child(3) label {
+	Background: #d9d9d9;
+}
+
+.tab_container_wrap {}
+
+.tab_container_wrap input {
+	Position: absolute;
+	Width: 0;
+	Height: 0;
+	Margin: 0;
+	Z-index: -100;
+	Top: -10000px;
+}
+
+.tab_container_wrap input:checked + .tab_content_box {
+	Display: block;
+} 
+
+
+.tab_content_box {
+	Background: #f0f0f0;
+	Padding: 20px;
+	Display: none;
+}
+
+.tab_content_box:nth-of-type(1) {
+	Background: #f0f0f0;
+}
+
+.tab_content_box:nth-of-type(2) {
+	Background: #e6e6e6;
+}
+
+.tab_content_box:nth-of-type(3) {
+	Background: #d9d9d9;
+}
+
+.tab_content_box h2 {
+	Margin: 0 0 20px;
+}
+
+Tittle
+{
+position: relative;
+  top: 5px;
+  left: 450px;
+}
+
+h1
+{
+position: relative;
+  top: 0px;
+  left: 450px;
+}
+
+#one
+{
+  position: relative;
+  top: 0px;
+  left: 450px;
+}
+
+#lists {
+  position: relative;
+  top: 180px;
+  left: 100px;
+}
+
+#lists ul {
+  position: relative;
+  top: 300px;
+  left: 100px;
+}
+
+img {
+  border-radius: 8px;
+  position: absolute;
+  top: 160px;
+  left: 160px;	
+}
+
+table{
+  position: absolute;
+  top: 1300px;
+  left: 140px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: lavender;
+}
+
+th, td {
+  border: 1px solid black;
+
+}
+
+tr:nth-child(even) {
+  background-color: #f0f0f0;}
+
+#two {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  Font-family: Times New Roman;
+Max-width: 1200px
+
+}
+
+.quote {
+  
+  Font-family: Snell Roundhand, cursive;
+  Font-size: 30px;
+  color: #7D3C98;
+  position: relative;
+  left: 300px;	
+}
